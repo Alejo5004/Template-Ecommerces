@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+
+.menu{
+    @apply flex;
+}
+
+.menu > .active{
+    @apply bg-gray-900 !important;
+    @apply text-white;
+}
+
+.menu > .item{
+    @apply py-2 px-4 rounded-lg bg-white;
+}
+
+@tailwind utilities;
